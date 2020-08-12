@@ -6,7 +6,6 @@
   <groupId>com.redhat.gpe.training</groupId>
   <artifactId>fis-springboot-camel-amq</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
 
 
   <name>Fabric8 :: Quickstarts :: Spring Boot :: Camel and ActiveMQ</name>
