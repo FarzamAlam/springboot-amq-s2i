@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: fis-springboot-camel-amq
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: fis-springboot-camel-amq@sha256:688698a42a590ec2fed4434fec4709de89b6ae2585bf18a3c047e321b48a85eb
+        namespace: fuse-on-ocp-0253
+      name: "1.0"
